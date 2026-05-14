@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title>Carstore - Carros</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2rem; background: #f0f2f5; }
+        .header { display: flex; justify-content: space-between; align-items: center; background: #1976d2; color: white; padding: 1rem 1.5rem; border-radius: 8px; margin-bottom: 1.5rem; }
+        h1 { margin: 0; }
+        a.logout { color: white; text-decoration: none; background: rgba(255,255,255,.2); padding: .4rem .8rem; border-radius: 4px; }
+        .info { background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,.1); }
+        p { margin: .4rem 0; }
+    </style>
+</head>
+<body>
+<div class="header">
+    <h1>Carstore</h1>
+    <span>
+        Olá, <strong sec:authentication="name">Usuário</strong>!
+        <form th:action="@{/logout}" method="post" style="display:inline">
+            <button type="submit" style="background:none;border:none;color:white;cursor:pointer;font-size:1rem;">Sair</button>
+        </form>
+    </span>
+</div>
+<div class="info">
+    <h2>Bem-vindo à camada Web</h2>
+    <p>Esta página é protegida por sessão (LAB 8).</p>
+    <p>Para testar a camada de API com JWT, use o Postman conforme descrito abaixo:</p>
+    <hr/>
+    <h3>Obter Token JWT</h3>
+    <p><strong>POST</strong> http://localhost:8080/api/auth/login</p>
+    <pre>{ "username": "admin", "password": "admin" }</pre>
+    <h3>Acessar recurso protegido</h3>
+    <p><strong>GET</strong> http://localhost:8080/api/admin/cars</p>
+    <p>Header: <code>Authorization: Bearer &lt;TOKEN&gt;</code></p>
+</div>
+</body>
+</html>

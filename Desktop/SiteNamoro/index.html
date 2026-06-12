@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Para o meu amor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Dia dos Namorados</p>
+          <h1>Um site feito pra lembrar o quanto você é especial pra mim.</h1>
+          <p class="hero-text">
+            Eu quis criar uma página com clima de surpresa, fotos nossas e uma
+            área que lembra um player de música, como aqueles sites românticos
+            da internet.
+          </p>
+          <div class="stats-strip">
+            <div>
+              <strong>100%</strong>
+              <span>carinho</span>
+            </div>
+            <div>
+              <strong>∞</strong>
+              <span>saudade boa</span>
+            </div>
+            <div>
+              <strong>4 anos</strong>
+              <span>quase juntos</span>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <a class="primary-btn" href="#playlist">Abrir a surpresa</a>
+            <a class="secondary-btn" href="#memories">Ver nossas memórias</a>
+          </div>
+          <p class="quote-line">
+            "Todo detalhe aqui existe pra lembrar que eu te amo."
+          </p>
+        </div>
+
+        <div class="hero-card">
+          <div class="badge">Nossa música</div>
+          <div class="album-art">
+            <img
+              src="images/foto-playlist-do-nosso-amor.png"
+              alt="Foto romântica dela"
+            />
+          </div>
+          <div class="track-meta">
+            <p class="track-title">Playlist do nosso amor</p>
+            <p class="track-subtitle">Uma seleção feita só pra nós dois</p>
+          </div>
+          <div class="player">
+            <button class="player-button" type="button" id="playButton">
+              ▶
+            </button>
+            <div class="player-info">
+              <div class="player-line">
+                <strong>Você + Eu</strong>
+                <span id="playerState">pronto para tocar</span>
+              </div>
+              <div class="progress-bar" aria-hidden="true">
+                <span id="progressFill"></span>
+              </div>
+            </div>
+          </div>
+          <div class="mini-tags">
+            <span>romance</span>
+            <span>música</span>
+            <span>fotos</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="music-section" id="music">
+        <div class="section-heading">
+          <p class="eyebrow">Música especial</p>
+          <h2>
+            Os Anjos Cantam, de Henrique e Juliano, como trilha do nosso
+            momento.
+          </h2>
+        </div>
+
+        <div class="music-card">
+          <div class="music-cover">
+            <img
+              src="images/osanjoscantamnossoamor.jpg"
+              alt="Os Anjos Cantam - Henrique e Juliano"
+              class="music-cover-img"
+            />
+          </div>
+
+          <div class="music-copy">
+            <span class="music-label">Agora tocando</span>
+            <strong>Os Anjos Cantam</strong>
+            <p>Henrique &amp; Juliano</p>
+            <p>
+              Agora a música já está embutida no site. No celular ela abre junto
+              com a história, sem precisar sair da página.
+            </p>
+            <div class="music-actions">
+              <a
+                class="primary-btn"
+                href="https://www.youtube.com/watch?v=EhlhRIJygPM&list=RDICS6uKC93w0&index=4"
+                target="_blank"
+                rel="noreferrer"
+                >Abrir a música</a
+              >
+              <a class="secondary-btn" href="#memories">Ver as fotos</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="timeline-section">
+        <div class="section-heading">
+          <p class="eyebrow">Nossa história</p>
+          <h2>Quase 4 anos juntos e cada fase merece ser lembrada.</h2>
+        </div>
+
+        <div class="timeline-grid">
+          <article class="timeline-card">
+            <span>01</span>
+            <h3>O começo</h3>
+            <p>
+              O momento em que a nossa história ganhou cor, sentido e aquele
+              friozinho bom.
+            </p>
+          </article>
+          <article class="timeline-card">
+            <span>02</span>
+            <h3>Os detalhes</h3>
+            <p>
+              Cada conversa, meme, áudio e chamada virou uma lembrança
+              importante.
+            </p>
+          </article>
+          <article class="timeline-card">
+            <span>03</span>
+            <h3>O agora</h3>
+            <p>
+              Hoje esse site existe pra guardar o que eu mais gosto: nós dois.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="playlist-section" id="playlist">
+        <div class="section-heading">
+          <p class="eyebrow">Estilo Spotify</p>
+          <h2>
+            Uma playlist que parece real, mas é nossa história em forma de
+            música.
+          </h2>
+        </div>
+
+        <div class="playlist-card">
+          <div class="playlist-hero-row">
+            <div class="playlist-cover">
+              <img
+                src="images/a%20gente%20sendo%20feliz%20e%20bobos.jpg"
+                alt="Capa da playlist com uma foto do casal"
+              />
+            </div>
+            <div class="playlist-copy">
+              <div class="playlist-top">
+                <div>
+                  <p class="playlist-label">Playlist</p>
+                  <h3>Quando penso em você</h3>
+                </div>
+                <span class="playlist-time">32 min</span>
+              </div>
+              <p class="playlist-description">
+                Uma capa fictícia com cara de álbum romântico, pronta para
+                receber a sua música preferida e as fotos que você me mandar.
+              </p>
+            </div>
+          </div>
+
+          <div class="track-list">
+            <a
+              class="track-item"
+              href="https://www.youtube.com/watch?v=CRLgEkgqc94"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div>
+                <strong>1. Walk This World With Me</strong>
+                <p>The Home Team</p>
+              </div>
+              <span>▶</span>
+            </a>
+            <a
+              class="track-item"
+              href="https://www.youtube.com/watch?v=lMk3WMnUZ1s"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div>
+                <strong>2. You Are the Right One</strong>
+                <p>sports</p>
+              </div>
+              <span>▶</span>
+            </a>
+            <a
+              class="track-item"
+              href="https://www.youtube.com/watch?v=XYQED7fs8Rc"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div>
+                <strong>3. Snow White (slowed)</strong>
+                <p>Dennis Lloyd</p>
+              </div>
+              <span>▶</span>
+            </a>
+          </div>
+
+          <div class="playlist-footer-note">
+            <span>Pressione o play acima para brincar com a barra</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="memories-section" id="memories">
+        <div class="section-heading">
+          <p class="eyebrow">Nossas fotos</p>
+          <h2>
+            Depois você me manda as imagens e eu encaixo aqui como uma galeria
+            bonita.
+          </h2>
+        </div>
+
+        <div class="gallery">
+          <article class="memory-card memory-large photo-card memory-medium">
+            <img
+              src="images/Nosso%20encontro%20antes%20da%20gente%20namorar.jpg"
+              alt="Nosso encontro antes da gente namorar"
+            />
+            <span class="photo-caption">Antes de namorar</span>
+          </article>
+          <article class="memory-card photo-card">
+            <img
+              src="images/Nosso%20primeiro%20encontro%20como%20namorados%20oficial.jpg"
+              alt="Nosso primeiro encontro como namorados oficial"
+            />
+            <span class="photo-caption">Primeiro encontro oficial</span>
+          </article>
+          <article class="memory-card photo-card">
+            <img
+              src="images/Primeiro%20filme%20assistido%20juntos.jpg"
+              alt="Primeiro filme assistido juntos"
+            />
+            <span class="photo-caption">Primeiro filme juntos</span>
+          </article>
+          <article class="memory-card photo-card">
+            <img src="images/primeiro%20buque.png" alt="Seu primeiro buquê" />
+            <span class="photo-caption">Seu primeiro buquê</span>
+          </article>
+          <article class="memory-card photo-card">
+            <img
+              src="images/Indo%20para%20um%20restaurante.jpg"
+              alt="Indo para um restaurante"
+            />
+            <span class="photo-caption">Indo para um restaurante</span>
+          </article>
+          <article class="memory-card photo-card">
+            <img
+              src="images/a%20gente%20sendo%20feliz%20e%20bobos.jpg"
+              alt="Vocês dois felizes"
+            />
+            <span class="photo-caption">A gente sendo feliz e bobos</span>
+          </article>
+          <article class="memory-card photo-card">
+            <img src="images/Meu%20amorzao%20linda.jpg" alt="Retrato dela" />
+            <span class="photo-caption">A cara perfeita do meu amor</span>
+          </article>
+          <article class="memory-card photo-card">
+            <img src="images/Voce%20de%20capuz.jpg" alt="Você de capuz" />
+            <span class="photo-caption">Você de capuz</span>
+          </article>
+          <article class="memory-card photo-card">
+            <img src="images/Nosso%20tortinha.jpg" alt="Nosso tortinha" />
+            <span class="photo-caption">Nosso tortinha</span>
+          </article>
+        </div>
+
+        <div class="memory-note-card">
+          <p>Uma linda história de amor com inúmeras fotos, mas coloquei algumas que salvei na minha pasta privada.</p>
+        </div>
+
+        <div class="love-letter-card">
+          <p>
+            Amo as cores do esmalte da sua unha, seus brincos com pedras vermelhas e detalhes prateados,
+            o cheiro do seu cabelo, o cacheado que ele tem nas pontas, seus olhos castanhos claros à luz do sol,
+            o seu nariz e a sua boca perfeitos — meu amor, tudo em você é perfeito e não existe erro algum.
+          </p>
+          <p>
+            Eu te amo e saiba que você sempre será especial pra mim. Não importa o universo e não importa a dificuldade,
+            eu daria minha vida por você — mas também viveria a melhor vida com você.
+          </p>
+        </div>
+      </section>
+
+      <section class="love-note">
+        <p class="eyebrow">Mensagem final</p>
+        <h2>Quase 4 anos depois, você ainda é meu lugar favorito.</h2>
+        <p>
+          Esse site é só um jeito de dizer, com calma e carinho, que eu te amo
+          muito e que quero continuar construindo histórias lindas com você.
+        </p>
+      </section>
+    </main>
+
+    <div class="floating-hearts" aria-hidden="true">
+      <span>❤</span>
+      <span>❤</span>
+      <span>❤</span>
+      <span>❤</span>
+    </div>
+
+    <script>
+      const playButton = document.getElementById("playButton");
+      const playerState = document.getElementById("playerState");
+      const progressFill = document.getElementById("progressFill");
+      let playing = false;
+      let progress = 18;
+
+      playButton.addEventListener("click", () => {
+        playing = !playing;
+        playButton.textContent = playing ? "❚❚" : "▶";
+        playerState.textContent = playing
+          ? "tocando agora"
+          : "pronto para tocar";
+
+        if (playing) {
+          progress = 18;
+          progressFill.style.width = progress + "%";
+        }
+      });
+
+      setInterval(() => {
+        if (!playing) return;
+        progress = Math.min(progress + 1.5, 100);
+        progressFill.style.width = progress + "%";
+        if (progress >= 100) {
+          playing = false;
+          playButton.textContent = "▶";
+          playerState.textContent = "pronto para tocar";
+        }
+      }, 180);
+    </script>
+  </body>
+</html>

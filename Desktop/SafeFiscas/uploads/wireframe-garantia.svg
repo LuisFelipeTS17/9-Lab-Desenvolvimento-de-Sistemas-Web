@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="1080" height="1440" fill="#ffffff"></rect>
+  <text x="40" y="44" font-size="26" font-weight="bold" fill="#111">App de Garantia — Fluxo do sistema (wireframe v1)</text>
+  <text x="40" y="70" font-size="15" fill="#777">Controle de garantia para loja de autopeças · mobile-first · rascunho preto e branco</text>
+
+  
+  <g transform="translate(40,100)">
+    <rect x="0" y="0" width="280" height="600" rx="28" fill="#fff" stroke="#111" stroke-width="2.5"></rect>
+    <rect x="95" y="16" width="90" height="8" rx="4" fill="#ddd"></rect>
+    <text x="20" y="60" font-size="15" font-weight="bold" fill="#111">Início</text>
+    <line x1="14" y1="74" x2="266" y2="74" stroke="#eee" stroke-width="2"></line>
+    
+    <rect x="16" y="88" width="248" height="40" rx="20" fill="#f5f5f5" stroke="#111" stroke-width="1.5"></rect>
+    <circle cx="38" cy="108" r="7" fill="none" stroke="#666" stroke-width="2"></circle>
+    <line x1="43" y1="113" x2="50" y2="120" stroke="#666" stroke-width="2"></line>
+    <text x="60" y="112" font-size="11" fill="#999">Buscar placa, cliente ou peça...</text>
+    <text x="16" y="156" font-size="12" font-weight="bold" fill="#333">NOTAS RECENTES</text>
+    
+    <rect x="16" y="168" width="248" height="82" rx="12" fill="#fff" stroke="#ccc" stroke-width="1.5"></rect>
+    <rect x="30" y="184" width="120" height="11" rx="3" fill="#333"></rect>
+    <rect x="190" y="182" width="60" height="20" rx="10" fill="#111"></rect>
+    <text x="220" y="196" font-size="9" fill="#fff" text-anchor="middle">Ativa</text>
+    <rect x="30" y="206" width="90" height="8" rx="3" fill="#999"></rect>
+    <rect x="30" y="224" width="150" height="8" rx="3" fill="#ccc"></rect>
+    
+    <rect x="16" y="262" width="248" height="82" rx="12" fill="#fff" stroke="#ccc" stroke-width="1.5"></rect>
+    <rect x="30" y="278" width="110" height="11" rx="3" fill="#333"></rect>
+    <rect x="182" y="276" width="68" height="20" rx="10" fill="#fff" stroke="#111" stroke-width="1.5"></rect>
+    <text x="216" y="290" font-size="9" fill="#111" text-anchor="middle">Devolvida</text>
+    <rect x="30" y="300" width="90" height="8" rx="3" fill="#999"></rect>
+    <rect x="30" y="318" width="140" height="8" rx="3" fill="#ccc"></rect>
+    
+    <rect x="16" y="356" width="248" height="82" rx="12" fill="#fff" stroke="#ccc" stroke-width="1.5"></rect>
+    <rect x="30" y="372" width="130" height="11" rx="3" fill="#333"></rect>
+    <rect x="182" y="370" width="68" height="20" rx="10" fill="#e0e0e0"></rect>
+    <text x="216" y="384" font-size="9" fill="#333" text-anchor="middle">Acionada</text>
+    <rect x="30" y="394" width="90" height="8" rx="3" fill="#999"></rect>
+    <rect x="30" y="412" width="150" height="8" rx="3" fill="#ccc"></rect>
+    
+    <circle cx="234" cy="548" r="30" fill="#111"></circle>
+    <line x1="234" y1="536" x2="234" y2="560" stroke="#fff" stroke-width="3"></line>
+    <line x1="222" y1="548" x2="246" y2="548" stroke="#fff" stroke-width="3"></line>
+    <text x="140" y="592" font-size="10" fill="#999" text-anchor="middle">+ registrar nova nota</text>
+  </g>
+  <text x="180" y="726" font-size="13" font-weight="bold" fill="#111" text-anchor="middle">1 · Início / Busca</text>
+
+  
+  <g transform="translate(400,100)">
+    <rect x="0" y="0" width="280" height="600" rx="28" fill="#fff" stroke="#111" stroke-width="2.5"></rect>
+    <rect x="95" y="16" width="90" height="8" rx="4" fill="#ddd"></rect>
+    <text x="20" y="60" font-size="15" font-weight="bold" fill="#111">Nova nota</text>
+    <line x1="14" y1="74" x2="266" y2="74" stroke="#eee" stroke-width="2"></line>
+    
+    <rect x="16" y="96" width="248" height="320" rx="12" fill="#f0f0f0" stroke="#111" stroke-width="1.5" stroke-dasharray="6 5"></rect>
+    
+    <path d="M40 120 h-14 v14" fill="none" stroke="#111" stroke-width="2.5"></path>
+    <path d="M240 120 h14 v14" fill="none" stroke="#111" stroke-width="2.5"></path>
+    <path d="M40 392 h-14 v-14" fill="none" stroke="#111" stroke-width="2.5"></path>
+    <path d="M240 392 h14 v-14" fill="none" stroke="#111" stroke-width="2.5"></path>
+    
+    <rect x="108" y="228" width="64" height="46" rx="8" fill="none" stroke="#888" stroke-width="2"></rect>
+    <rect x="128" y="222" width="24" height="10" rx="3" fill="none" stroke="#888" stroke-width="2"></rect>
+    <circle cx="140" cy="251" r="12" fill="none" stroke="#888" stroke-width="2"></circle>
+    <text x="140" y="300" font-size="11" fill="#999" text-anchor="middle">Aponte para a nota fiscal</text>
+    
+    <rect x="16" y="440" width="248" height="50" rx="25" fill="#111"></rect>
+    <text x="140" y="471" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Tirar foto da nota</text>
+    <text x="140" y="524" font-size="11" fill="#777" text-anchor="middle" text-decoration="underline">ou escolher da galeria</text>
+  </g>
+  <text x="540" y="726" font-size="13" font-weight="bold" fill="#111" text-anchor="middle">2 · Foto (sem digitar)</text>
+
+  
+  <g transform="translate(760,100)">
+    <rect x="0" y="0" width="280" height="600" rx="28" fill="#fff" stroke="#111" stroke-width="2.5"></rect>
+    <rect x="95" y="16" width="90" height="8" rx="4" fill="#ddd"></rect>
+    <text x="20" y="52" font-size="15" font-weight="bold" fill="#111">Conferir dados</text>
+    <text x="20" y="70" font-size="10" fill="#999">A IA leu a nota. Confira e corrija se precisar.</text>
+    <line x1="14" y1="80" x2="266" y2="80" stroke="#eee" stroke-width="2"></line>
+    
+    
+    <text x="18" y="102" font-size="9" fill="#999">PEÇA</text>
+    <rect x="16" y="108" width="248" height="32" rx="8" fill="#fff" stroke="#ccc" stroke-width="1.5"></rect>
+    <rect x="28" y="120" width="150" height="9" rx="3" fill="#333"></rect>
+    
+    <text x="18" y="160" font-size="9" fill="#999">VALOR</text>
+    <rect x="16" y="166" width="120" height="32" rx="8" fill="#fff" stroke="#ccc" stroke-width="1.5"></rect>
+    <rect x="28" y="178" width="70" height="9" rx="3" fill="#333"></rect>
+    <text x="150" y="160" font-size="9" fill="#999">DATA</text>
+    <rect x="148" y="166" width="116" height="32" rx="8" fill="#fff" stroke="#ccc" stroke-width="1.5"></rect>
+    <rect x="160" y="178" width="70" height="9" rx="3" fill="#333"></rect>
+    
+    <text x="18" y="218" font-size="9" fill="#999">VENDEDOR</text>
+    <rect x="16" y="224" width="248" height="32" rx="8" fill="#fff" stroke="#ccc" stroke-width="1.5"></rect>
+    <rect x="28" y="236" width="110" height="9" rx="3" fill="#333"></rect>
+    
+    <text x="18" y="276" font-size="9" fill="#999">DISTRIBUIDORA · Nº NF</text>
+    <rect x="16" y="282" width="248" height="32" rx="8" fill="#fff" stroke="#ccc" stroke-width="1.5"></rect>
+    <rect x="28" y="294" width="170" height="9" rx="3" fill="#333"></rect>
+    
+    <text x="18" y="334" font-size="9" fill="#999">CLIENTE · TELEFONE</text>
+    <rect x="16" y="340" width="248" height="32" rx="8" fill="#fff" stroke="#ccc" stroke-width="1.5"></rect>
+    <rect x="28" y="352" width="170" height="9" rx="3" fill="#333"></rect>
+    
+    <text x="18" y="392" font-size="9" fill="#999">PLACA (guarda antiga + Mercosul)</text>
+    <rect x="16" y="398" width="248" height="32" rx="8" fill="#fff" stroke="#ccc" stroke-width="1.5"></rect>
+    <rect x="28" y="410" width="90" height="9" rx="3" fill="#333"></rect>
+    
+    <rect x="16" y="452" width="248" height="50" rx="25" fill="#111"></rect>
+    <text x="140" y="483" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Salvar garantia</text>
+    <text x="140" y="536" font-size="10" fill="#bbb" text-anchor="middle">▲ role para ver todos os campos</text>
+  </g>
+  <text x="900" y="726" font-size="13" font-weight="bold" fill="#111" text-anchor="middle">3 · IA extrai os campos</text>
+
+  
+  <g transform="translate(400,770)">
+    <rect x="0" y="0" width="280" height="600" rx="28" fill="#fff" stroke="#111" stroke-width="2.5"></rect>
+    <rect x="95" y="16" width="90" height="8" rx="4" fill="#ddd"></rect>
+    <text x="20" y="60" font-size="15" font-weight="bold" fill="#111">Garantia #1042</text>
+    <line x1="14" y1="74" x2="266" y2="74" stroke="#eee" stroke-width="2"></line>
+    
+    <rect x="16" y="88" width="248" height="42" rx="10" fill="#111"></rect>
+    <circle cx="34" cy="109" r="5" fill="#fff"></circle>
+    <text x="48" y="113" font-size="12" font-weight="bold" fill="#fff">ATIVA — vence em 47 dias</text>
+    
+    <text x="20" y="160" font-size="9" fill="#999">CLIENTE</text>
+    <rect x="20" y="166" width="150" height="10" rx="3" fill="#333"></rect>
+    <text x="20" y="196" font-size="9" fill="#999">PLACA</text>
+    <rect x="20" y="202" width="90" height="10" rx="3" fill="#333"></rect>
+    <text x="20" y="232" font-size="9" fill="#999">PEÇA</text>
+    <rect x="20" y="238" width="160" height="10" rx="3" fill="#333"></rect>
+    <text x="20" y="268" font-size="9" fill="#999">DISTRIBUIDORA · NF</text>
+    <rect x="20" y="274" width="170" height="10" rx="3" fill="#333"></rect>
+    <text x="20" y="304" font-size="9" fill="#999">VALOR</text>
+    <rect x="20" y="310" width="80" height="10" rx="3" fill="#333"></rect>
+    
+    <rect x="196" y="150" width="60" height="76" rx="6" fill="#f0f0f0" stroke="#aaa" stroke-width="1.5"></rect>
+    <line x1="196" y1="150" x2="256" y2="226" stroke="#ccc" stroke-width="1.5"></line>
+    <line x1="256" y1="150" x2="196" y2="226" stroke="#ccc" stroke-width="1.5"></line>
+    <text x="226" y="240" font-size="8" fill="#999" text-anchor="middle">ver nota</text>
+    
+    <rect x="16" y="452" width="248" height="46" rx="23" fill="#fff" stroke="#111" stroke-width="2"></rect>
+    <text x="140" y="480" font-size="13" font-weight="bold" fill="#111" text-anchor="middle">Marcar como acionada</text>
+    <rect x="16" y="508" width="248" height="46" rx="23" fill="#111"></rect>
+    <text x="140" y="536" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">Marcar como devolvida</text>
+  </g>
+  <text x="540" y="1396" font-size="13" font-weight="bold" fill="#111" text-anchor="middle">4 · Detalhe + status/devolução</text>
+
+  
+  <g transform="translate(40,770)">
+    <rect x="0" y="0" width="280" height="600" rx="28" fill="#fff" stroke="#111" stroke-width="2.5"></rect>
+    <rect x="95" y="16" width="90" height="8" rx="4" fill="#ddd"></rect>
+    <text x="20" y="60" font-size="15" font-weight="bold" fill="#111">Devoluções</text>
+    <line x1="14" y1="74" x2="266" y2="74" stroke="#eee" stroke-width="2"></line>
+    
+    <rect x="16" y="88" width="248" height="38" rx="8" fill="#fff" stroke="#ccc" stroke-width="1.5"></rect>
+    <text x="28" y="112" font-size="12" fill="#333">Maio 2024</text>
+    <path d="M238 104 l8 0 l-4 6 z" fill="#666"></path>
+    
+    <line x1="16" y1="150" x2="264" y2="150" stroke="#eee" stroke-width="1.5"></line>
+    <rect x="20" y="164" width="120" height="9" rx="3" fill="#333"></rect>
+    <rect x="20" y="180" width="80" height="7" rx="3" fill="#bbb"></rect>
+    <text x="256" y="176" font-size="12" font-weight="bold" fill="#111" text-anchor="end">R$ 180</text>
+    <line x1="16" y1="204" x2="264" y2="204" stroke="#eee" stroke-width="1.5"></line>
+    <rect x="20" y="218" width="130" height="9" rx="3" fill="#333"></rect>
+    <rect x="20" y="234" width="80" height="7" rx="3" fill="#bbb"></rect>
+    <text x="256" y="230" font-size="12" font-weight="bold" fill="#111" text-anchor="end">R$ 140</text>
+    <line x1="16" y1="258" x2="264" y2="258" stroke="#eee" stroke-width="1.5"></line>
+    <rect x="20" y="272" width="110" height="9" rx="3" fill="#333"></rect>
+    <rect x="20" y="288" width="80" height="7" rx="3" fill="#bbb"></rect>
+    <text x="256" y="284" font-size="12" font-weight="bold" fill="#111" text-anchor="end">R$ 220</text>
+    <line x1="16" y1="312" x2="264" y2="312" stroke="#eee" stroke-width="1.5"></line>
+    <rect x="20" y="326" width="120" height="9" rx="3" fill="#333"></rect>
+    <rect x="20" y="342" width="80" height="7" rx="3" fill="#bbb"></rect>
+    <text x="256" y="338" font-size="12" font-weight="bold" fill="#111" text-anchor="end">R$ 100</text>
+    <line x1="16" y1="366" x2="264" y2="366" stroke="#eee" stroke-width="1.5"></line>
+    
+    <rect x="16" y="470" width="248" height="72" rx="12" fill="#f0f0f0" stroke="#111" stroke-width="2"></rect>
+    <text x="32" y="500" font-size="11" fill="#666">Total devolvido no mês</text>
+    <text x="32" y="528" font-size="26" font-weight="bold" fill="#111">R$ 640,00</text>
+  </g>
+  <text x="180" y="1396" font-size="13" font-weight="bold" fill="#111" text-anchor="middle">5 · Relatório p/ o acerto</text>
+
+  
+  <g transform="translate(760,770)">
+    <rect x="0" y="0" width="280" height="600" rx="16" fill="#fafafa" stroke="#ccc" stroke-width="1.5"></rect>
+    <text x="20" y="42" font-size="16" font-weight="bold" fill="#111">O que torna diferente</text>
+    <line x1="20" y1="54" x2="260" y2="54" stroke="#ddd" stroke-width="1.5"></line>
+
+    <circle cx="28" cy="86" r="4" fill="#111"></circle>
+    <text x="42" y="82" font-size="12" font-weight="bold" fill="#111">Foto, não digitação</text>
+    <text x="42" y="100" font-size="11" fill="#666">A IA lê a nota. Digitar na mão</text>
+    <text x="42" y="116" font-size="11" fill="#666">mataria a adoção no balcão.</text>
+
+    <circle cx="28" cy="150" r="4" fill="#111"></circle>
+    <text x="42" y="146" font-size="12" font-weight="bold" fill="#111">Busca não depende da placa</text>
+    <text x="42" y="164" font-size="11" fill="#666">Acha por telefone, nome, peça</text>
+    <text x="42" y="180" font-size="11" fill="#666">ou data. Resolve placa errada</text>
+    <text x="42" y="196" font-size="11" fill="#666">e troca pro Mercosul.</text>
+
+    <circle cx="28" cy="230" r="4" fill="#111"></circle>
+    <text x="42" y="226" font-size="12" font-weight="bold" fill="#111">Guarda a distribuidora</text>
+    <text x="42" y="244" font-size="11" fill="#666">Você sabe de quem pediu e</text>
+    <text x="42" y="260" font-size="11" fill="#666">contra quem acionar a garantia.</text>
+
+    <circle cx="28" cy="294" r="4" fill="#111"></circle>
+    <text x="42" y="290" font-size="12" font-weight="bold" fill="#111">Devolução vira número</text>
+    <text x="42" y="308" font-size="11" fill="#666">Marca &#34;devolvida&#34; → cai no</text>
+    <text x="42" y="324" font-size="11" fill="#666">relatório somado, pronto pro</text>
+    <text x="42" y="340" font-size="11" fill="#666">acerto. Fim da conta na mão.</text>
+
+    <line x1="20" y1="366" x2="260" y2="366" stroke="#ddd" stroke-width="1.5"></line>
+    <text x="20" y="392" font-size="12" font-weight="bold" fill="#111">Fora da v1 (gaveta):</text>
+    <text x="20" y="412" font-size="11" fill="#999">dashboard de compras, busca</text>
+    <text x="20" y="428" font-size="11" fill="#999">inteligente de peça, atendente</text>
+    <text x="20" y="444" font-size="11" fill="#999">de IA, NF-e de devolução.</text>
+
+    <rect x="20" y="470" width="240" height="1" fill="#ddd"></rect>
+    <text x="20" y="500" font-size="11" fill="#666" font-style="italic">Rascunho para conversa —</text>
+    <text x="20" y="518" font-size="11" fill="#666" font-style="italic">as telas mudam depois do</text>
+    <text x="20" y="536" font-size="11" fill="#666" font-style="italic">feedback dos donos de loja.</text>
+  </g>
+</svg>

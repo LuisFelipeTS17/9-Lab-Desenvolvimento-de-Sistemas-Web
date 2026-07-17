@@ -1,0 +1,20 @@
+{
+  "name": "SafeFiscas",
+  "short_name": "SafeFiscas",
+  "description": "Controle de garantias de peças a partir das notas fiscais.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#eef1f6",
+  "theme_color": "#1b4f9c",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
